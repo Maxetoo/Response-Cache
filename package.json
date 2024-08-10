@@ -1,0 +1,22 @@
+{
+    "name": "cache",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "compression": "^1.7.4",
+        "express": "^4.19.2",
+        "express-async-errors": "^3.1.1",
+        "mongoose": "^8.5.2",
+        "morgan": "^1.10.0",
+        "node-cache": "^5.1.2",
+        "nodemon": "^3.1.4"
+    }
+}
