@@ -51,7 +51,7 @@ const memoryCache = (req, res, next) => {
     const key = req.originalUrl
     const cachedResponse = cache.get(key);
 
-    console.log(`Key: ${key}`);
+    console.log(`Key: ${key}`);  // /users
 
     // if it exits, send cache result
     if (cachedResponse) {
